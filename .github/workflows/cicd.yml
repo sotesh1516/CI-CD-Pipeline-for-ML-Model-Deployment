@@ -27,4 +27,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASS }}
 
       - name: Push Docker Image
-        run: docker push cicd/ai-model:latest
+        run: docker push sotesh1516/ai-model:latest
